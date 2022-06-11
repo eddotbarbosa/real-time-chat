@@ -58,7 +58,7 @@ export default function Chat ({user, setUser, room, setRoom, setSigned}) {
           <img src={signoutIcon} alt="sign out icon" />
         </button>
       </div>
-      <div className={`${styles['chat-messages']}`}>
+      <div className={`${styles['chat-messages']} ${layout['col-12']}`}>
         <ul className={`${styles['message-list']} ${layout['flex']} ${layout['align-start']} ${layout['column']}`}>
           {messages.map((message) => {
             return (

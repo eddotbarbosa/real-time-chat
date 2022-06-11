@@ -1,7 +1,9 @@
 @import '../../styles/theme.module.scss';
 
 .chat {
-  width: 430px;
+  width: 100%;
+  max-width: 430px;
+  padding: 0px 12px;
 }
 
 .chat-header {
