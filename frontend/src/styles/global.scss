@@ -1,0 +1,26 @@
+@import '../styles/theme.module.scss';
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: $gray-one;
+  color: $black-one;
+
+  // remove autocomplete background color
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active  {
+    box-shadow: 0 0 0 30px white inset !important;
+  }
+}
+
+a {
+  text-decoration: none;
+}
