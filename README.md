@@ -2,6 +2,8 @@
 
 A realtime chat project where the user choose a room to join and talk with all users in that room.
 
+![preview](https://github.com/eddotbarbosa/real-time-chat/blob/master/gitassets/preview.png?raw=true)
+
 ## Table of contents
 * [Features](#Features)
 * [Technologies](#technologies)
@@ -61,5 +63,5 @@ npm run dev
 ```
 
 ## License
-[MIT license.](https://github.com/eddotbarbosa/real-time-chat/blob/master/LICENSE)
+[MIT license.](https://github.com/eddotbarbosa/real-time-chat/blob/master/LICENSE.md)
 
